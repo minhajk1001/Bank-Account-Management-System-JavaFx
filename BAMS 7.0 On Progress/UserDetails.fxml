@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="472.0" prefWidth="583.0" style="-fx-background-color: #E7E7E7;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxtest07.UserDetailsController">
+   <children>
+      <Text fontSmoothingType="LCD" layoutX="190.0" layoutY="55.0" strokeType="OUTSIDE" strokeWidth="0.0" text="USER DETAILS PANEL">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Text>
+      <Text layoutX="112.0" layoutY="107.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Transaction ID">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <TextField layoutX="248.0" layoutY="88.0" prefHeight="25.0" prefWidth="129.0" />
+      <Text layoutX="35.0" layoutY="294.0" strokeType="OUTSIDE" strokeWidth="0.0" text="NAME                  " wrappingWidth="153.8671875">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <Text layoutX="35.0" layoutY="328.0" strokeType="OUTSIDE" strokeWidth="0.0" text="PROFESSION          " wrappingWidth="153.8671875">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <Text layoutX="326.0" layoutY="327.0" strokeType="OUTSIDE" strokeWidth="0.0" text="DoB" wrappingWidth="153.8671875">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <Text layoutX="326.0" layoutY="360.0" strokeType="OUTSIDE" strokeWidth="0.0" text="AGE" wrappingWidth="153.8671875">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <Text layoutX="326.0" layoutY="294.0" strokeType="OUTSIDE" strokeWidth="0.0" text="SEX                        " wrappingWidth="153.8671875">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <Text layoutX="35.0" layoutY="361.0" strokeType="OUTSIDE" strokeWidth="0.0" text="PHONE                    " wrappingWidth="153.8671875">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <Text layoutX="35.0" layoutY="395.0" strokeType="OUTSIDE" strokeWidth="0.0" text="E-MAIL" wrappingWidth="153.8671875">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <Text layoutX="35.0" layoutY="430.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ADDRESS" wrappingWidth="153.8671875">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <Text layoutX="163.0" layoutY="202.0" strokeType="OUTSIDE" strokeWidth="0.0" text="BALANCE" wrappingWidth="153.8671875">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <Text layoutX="163.0" layoutY="238.0" strokeType="OUTSIDE" strokeWidth="0.0" text="INTEREST" wrappingWidth="153.8671875">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <Text layoutX="163.0" layoutY="167.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ACCOUNT" wrappingWidth="153.8671875">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="112.0" fitWidth="116.0" layoutX="35.0" layoutY="141.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@id.png" />
+         </image>
+         <cursor>
+            <Cursor fx:constant="NONE" />
+         </cursor>
+      </ImageView>
+   </children>
+</AnchorPane>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane fx:id="mainScene" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="533.0" prefWidth="763.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxtest07.FXMLDocumentController">
+   <top>
+      <AnchorPane prefHeight="69.0" prefWidth="763.0" style="-fx-background-color: #191919;" BorderPane.alignment="CENTER">
+         <children>
+            <Text fill="WHITE" fontSmoothingType="LCD" layoutX="179.0" layoutY="44.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Bank Account Management System">
+               <font>
+                  <Font name="Cambria Math" size="27.0" />
+               </font>
+            </Text>
+         </children></AnchorPane>
+   </top>
+   <left>
+      <AnchorPane prefHeight="472.0" prefWidth="181.0" style="-fx-background-color: #0074F7;" BorderPane.alignment="CENTER">
+         <children>
+            <Button layoutX="18.0" layoutY="23.0" mnemonicParsing="false" onAction="#registrationPane" prefHeight="40.0" prefWidth="145.0" style="-fx-background-radius: 7; -fx-font-weight: bold; -fx-font-family: Cambria Math; -fx-font-size: 18;" text="Registration">
+               <font>
+                  <Font size="16.0" />
+               </font></Button>
+            <Button layoutX="18.0" layoutY="88.0" mnemonicParsing="false" onAction="#depositePanel" prefHeight="40.0" prefWidth="145.0" style="-fx-background-radius: 7; -fx-font-weight: bold; -fx-font-family: Cambria Math; -fx-font-size: 18;" text="Deposite">
+               <font>
+                  <Font size="16.0" />
+               </font></Button>
+            <Button layoutX="18.0" layoutY="153.0" mnemonicParsing="false" onAction="#withdrawPanel" prefHeight="40.0" prefWidth="145.0" style="-fx-background-radius: 7; -fx-font-weight: bold; -fx-font-family: Cambria Math; -fx-font-size: 18;" text="Withdraw">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Button>
+            <Button layoutX="18.0" layoutY="216.0" mnemonicParsing="false" onAction="#transferPanel" prefHeight="40.0" prefWidth="144.0" style="-fx-background-radius: 7; -fx-font-weight: bold; -fx-font-family: Cambria Math; -fx-font-size: 18;" text="Transfer">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Button>
+            <Button layoutX="20.0" layoutY="281.0" mnemonicParsing="false" onAction="#userDetailsPane" prefHeight="40.0" prefWidth="141.0" style="-fx-background-radius: 7; -fx-font-weight: bold; -fx-font-family: Cambria Math; -fx-font-size: 18;" text="User Details">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Button>
+            <Button layoutX="20.0" layoutY="343.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="65.0" text="About">
+               <font>
+                  <Font name="Cambria Math" size="13.0" />
+               </font>
+            </Button>
+            <Button fx:id="closeButton" layoutX="96.0" layoutY="343.0" mnemonicParsing="false" onAction="#closeAppicationBtn" prefHeight="30.0" prefWidth="65.0" text="LogOut">
+               <font>
+                  <Font name="Cambria Math" size="13.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+   </left>
+   <right>
+      <AnchorPane prefHeight="472.0" prefWidth="583.0" style="-fx-background-color: #E7E7E7;" BorderPane.alignment="CENTER">
+         <children>
+            <Button layoutX="353.0" layoutY="256.0" mnemonicParsing="false" onAction="#login" text="Login">
+               <font>
+                  <Font size="16.0" />
+               </font></Button>
+            <Text layoutX="168.0" layoutY="184.0" strokeType="OUTSIDE" strokeWidth="0.0" text="USER ID">
+               <font>
+                  <Font name="Cambria Math" size="16.0" />
+               </font>
+            </Text>
+            <Text layoutX="168.0" layoutY="229.0" strokeType="OUTSIDE" strokeWidth="0.0" text="PASSWORD">
+               <font>
+                  <Font name="Cambria Math" size="16.0" />
+               </font>
+            </Text>
+            <Text fontSmoothingType="LCD" layoutX="223.0" layoutY="55.0" strokeType="OUTSIDE" strokeWidth="0.0" text="LOGIN PANEL">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Text>
+            <TextField layoutX="266.0" layoutY="166.0" prefHeight="25.0" prefWidth="149.0" />
+            <TextField layoutX="266.0" layoutY="211.0" prefHeight="25.0" prefWidth="149.0" />
+         </children>
+      </AnchorPane>
+   </right>
+</BorderPane>
